@@ -1,0 +1,8 @@
+include ':app'
+rootProject.name = "Glassphoto"
+
+includeBuild('../GestureLibrarySample') {
+    dependencySubstitution {
+        substitute module('com.example.glass.ui:gesture-lib-sample') with project(':main')
+    }
+}
