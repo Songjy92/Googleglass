@@ -434,7 +434,6 @@ public class CameraActionHandler implements OnImageAvailableListener {
                     public void onCaptureCompleted(@NonNull CameraCaptureSession session,
                                                    @NonNull CaptureRequest request, @NonNull TotalCaptureResult result) {
                         startPreview();
-                        FTPupload();
                     }
 
                 });
